@@ -1,6 +1,6 @@
 import React from 'react'
 import Section from '../Section'
-import ProjectUnit from '../ProjectUnit'
+import ExperienceUnit from '../ExperienceUnit'
 
 import spotifyRewrappedLogo from '../../assets/images/projects/rewrapped.png'
 import dataDataLogo from '../../assets/images/projects/datadata.jpeg'
@@ -12,6 +12,7 @@ class ProjectsSection extends React.Component {
       <Section title="Projects">
         <div className="row">
           <ProjectUnit
+          <ExperienceUnit
             logo={spotifyRewrappedLogo}
             colour="#B89ACA"
             title="Spotify ReWrapped"
@@ -21,6 +22,10 @@ class ProjectsSection extends React.Component {
             medium="https://towardsdatascience.com/spotify-rewrapped-e2a7cc94fb4e"
           />
           <ProjectUnit
+            timeperiod="2018"
+            subtitle="Spotify surprises us every December with their cool end-of-the-year specials. Nevertheless, this year some of the reports smelled fishy. I decided to investigate..."
+          />
+          <ExperienceUnit
             logo={dataDataLogo}
             colour="#FFFFFF"
             title="Data, data"
@@ -36,6 +41,10 @@ class ProjectsSection extends React.Component {
             }
           />
           <ProjectUnit
+            timeperiod="2018"
+            subtitle="An immersive analysis into Jorge Drexler’s universe through statistical exploration of his music and lyrics."
+          />
+          <ExperienceUnit
             logo={musicMagalLogo}
             colour="#DAD9D6"
             title="Music Magal"
@@ -43,6 +52,8 @@ class ProjectsSection extends React.Component {
             subtitle="A deep learning and machine learning approach to music group recommendation."
             github="https://github.com/alexing/musicmagal"
             medium="https://hackernoon.com/musicmagal-c93e9dabd01a"
+            timeperiod="2018"
+            subtitle="A deep learning and machine learning approach to music group recommendation."
           />
         </div>
       </Section>
