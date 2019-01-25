@@ -1,6 +1,6 @@
 @import '../../../assets/scss/main.scss';
 
-$max-width: 230px;
+$max-width: 280px;
 $margin-bottom: 40px;
 
 .about {
@@ -11,7 +11,7 @@ $margin-bottom: 40px;
     max-width: $max-width;
     height: 180px;
     background-size: cover;
-    background-image: url(../../../assets/images/alex.jpg);
+    background-image: url(../../../assets/images/mugshot_grey.png);
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 50%;
@@ -33,7 +33,7 @@ $margin-bottom: 40px;
     margin-bottom: $margin-bottom;
     max-width: $max-width;
     line-height: 2.8rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 
     .emoji {
       font-size: 1.6rem;

@@ -38,6 +38,7 @@ class ExperienceSection extends React.Component {
             timeperiod='2016'
             subtitle='Full-stack Software Engineer: worked with both back and front end web development and iOS apps.'
           />
+          {/*
           <ExperienceUnit
             logo={awLogo}
             colour='#AFCA5B'
@@ -54,6 +55,7 @@ class ExperienceSection extends React.Component {
             timeperiod='2014'
             subtitle='Cyber Security Research Internship: worked on diverse projects involving vulnerating basic systems, network sniffing, cryptography concepts and disassembling code among others.'
           />
+        */}
         </div>
       </Section>
     )

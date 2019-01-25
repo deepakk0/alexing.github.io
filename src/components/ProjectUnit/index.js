@@ -35,29 +35,34 @@ class ProjectUnit extends Component {
         <div className="subtitle">
           {this.props.subtitle}
         </div>
-        <div>
-          <div className='additional_link'>
-            <li className="icon">
-                <a href={this.props.additional_link1} target="_blank">
-                  <i class={this.props.additional_link1_icon}></i> 
-                </a>
-            </li>
-            {this.props.additional_link1_title}
 
-          </div>
-        </div>
+      {this.props.additional_link1 ? 
         <div>
-          <div className='additional_link'>
-            <i class='fa {this.props.additional_link2_icon}'></i> 
-            {this.props.additional_link2}
-          </div>
-        </div>
+                <a className='additional_link' href={this.props.additional_link1} target="_blank">
+                  <i className={`${this.props.additional_link1_icon}`}></i>
+                  &nbsp;&nbsp;&nbsp;{this.props.additional_link1_title}
+                </a>
+        </div> : ''
+      }
+      {this.props.additional_link2 ? 
+
         <div>
-          <div className='additional_link'>
-            <i class='fa {this.props.additional_link3_icon}'></i>
-            {this.props.additional_link3}
-          </div>
-        </div>
+                <a className='additional_link' href={this.props.additional_link2} target="_blank">
+                  <i className={`${this.props.additional_link2_icon}`}></i>
+                  &nbsp;&nbsp;&nbsp;{this.props.additional_link2_title}
+                </a>
+        </div> : ''
+      }
+      {this.props.additional_link3 ? 
+
+        <div>
+                <a className='additional_link' href={this.props.additional_link3} target="_blank">
+                  <i className={`${this.props.additional_link3_icon}`}></i>
+                  &nbsp;&nbsp;&nbsp;{this.props.additional_link3_title}
+                </a>
+        </div> : ''
+      }
+      <div>&nbsp;&nbsp;&nbsp;</div> {/* for spacing*/}
       </div>
     )
   } 

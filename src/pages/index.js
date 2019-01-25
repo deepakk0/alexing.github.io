@@ -20,14 +20,14 @@ const IndexPage = () => (
       </div>
 
       <div className="main">
-        <h5>
+        {/*<h5>
           Hi, I'm <span className="bold">Alex Ingberg</span>
-        </h5>
+        </h5>*/}
 
-        <h3 className="bold">
+        {/*<h3 className="bold">
           Data Scientist with a degree on Computer Engineering. More than 4 years of experience in Machine Learning and Software Engineering.
           Researching and analyizing data in various projects on my spare time. Drop me a line!
-        </h3>
+        </h3>*/}
         <ProjectsSection />
         <ExperienceSection />
         <EducationSection />

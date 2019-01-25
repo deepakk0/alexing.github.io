@@ -29,11 +29,11 @@ class ProjectsSection extends React.Component {
             github="https://github.com/alexing/datadata"
             medium="https://towardsdatascience.com/data-data-1fedfac91c79"
             additional_link1="https://medium.com/@alexing/data-data-b82201ec1cf4"
-            additional_link2_icon="fa fa-medium"
-            additional_link2_title="Spanish translation"
-            additional_link2={
-              <a href='https://www.elobservador.com.uy/nota/-cual-es-la-palabra-mas-usada-por-jorge-drexler-en-sus-canciones--20181020141350' target='_blank'>Article published in El Observador, one of the Uruguayan newspapers with wider distribution.</a>  
-            }
+            additional_link1_icon="fa fa-medium"
+            additional_link1_title="Spanish translation"
+            additional_link2="https://www.elobservador.com.uy/nota/-cual-es-la-palabra-mas-usada-por-jorge-drexler-en-sus-canciones--20181020141350"
+            additional_link2_icon="fa fa-newspaper-o"
+            additional_link2_title="Article published in El Observador, one of the Uruguayan newspapers with wider distribution."
           />
           <ProjectUnit
             logo={musicMagalLogo}
