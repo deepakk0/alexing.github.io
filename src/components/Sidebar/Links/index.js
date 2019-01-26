@@ -5,6 +5,8 @@ import 'font-awesome/css/font-awesome.min.css'
 
 import { library, dom } from '@fortawesome/fontawesome-svg-core'
 
+import cv from "./CV-AlexIngberg.pdf"
+
 // replace 'M241 241 H 351 V 351 H 241 L 241 241' with your single-path SVG
 var faMyCustomIcon = {
   prefix: 'fac',
@@ -45,7 +47,7 @@ class Links extends Component {
             </a>
           </li>
           <li className="icon">
-            <a href="../../assets/CV-AlexIngberg.pdf" target="_blank" download>
+            <a href={cv} target="_blank" download>
               <i className="fa fa-id-badge"></i>
             </a>
           </li>

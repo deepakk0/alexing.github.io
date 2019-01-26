@@ -4,7 +4,7 @@ import ProjectUnit from '../ProjectUnit'
 
 import spotifyRewrappedLogo from '../../assets/images/projects/rewrapped.png'
 import dataDataLogo from '../../assets/images/projects/datadata.jpeg'
-import musicMagalLogo from '../../assets/images/projects/musicmagal.jpeg'
+import musicMagalLogo from '../../assets/images/projects/musicmagal2.jpeg'
 
 class ProjectsSection extends React.Component {
   render() {
@@ -22,7 +22,7 @@ class ProjectsSection extends React.Component {
           />
           <ProjectUnit
             logo={dataDataLogo}
-            colour="#FFFFFF"
+            colour="#1A1A19"
             title="Data, data"
             link="https://towardsdatascience.com/data-data-1fedfac91c79"
             subtitle="An immersive analysis into Jorge Drexler’s universe through statistical exploration of his music and lyrics."
