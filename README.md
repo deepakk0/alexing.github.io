@@ -1,13 +1,11 @@
 # alexing.github.io
-A portfolio starter for [Gatsby](https://www.gatsbyjs.org/) with a 2 column layout.  
+My portfolio developed in  [Gatsby](https://www.gatsbyjs.org/).
 
-## Demo
 See it in action [here](http://www.alexingberg.com/).
 
-## Installation
-```
-gatsby new gatsby-site https://github.com/alexing/alexing.github.io
-```
+## Where's the code?
+
+Check the develop branch [here] (/alexing/alexing.github.io/tree/develop)
 
 ## Based on 
 https://github.com/praagyajoshi/gatsby-starter-2column-portfolio
