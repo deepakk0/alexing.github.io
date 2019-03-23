@@ -31,9 +31,14 @@ class ProjectsSection extends React.Component {
             additional_link1="https://medium.com/@alexing/data-data-b82201ec1cf4"
             additional_link1_icon="fa fa-medium"
             additional_link1_title="Spanish translation"
+
+
             additional_link2="https://www.elobservador.com.uy/nota/-cual-es-la-palabra-mas-usada-por-jorge-drexler-en-sus-canciones--20181020141350"
             additional_link2_icon="fa fa-newspaper-o"
             additional_link2_title="Article published in El Observador, one of the Uruguayan newspapers with wider distribution."
+            additional_link3="https://www.redaccion.com.ar/inmersion-en-el-mundo-de-jorge-drexler-a-traves-de-la-exploracion-estadistica-de-su-letra-y-musica/"
+            additional_link3_icon="fa fa-newspaper-o"
+            additional_link3_title="Article published in Redaccion.com.ar, a new and modern Argentinean medium."
           />
           <ProjectUnit
             logo={musicMagalLogo}
