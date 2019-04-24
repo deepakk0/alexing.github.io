@@ -2,6 +2,7 @@ import React from 'react'
 import Section from '../Section'
 import ProjectUnit from '../ProjectUnit'
 
+import lyricsLogo from '../../assets/images/projects/lyrics.png'
 import spotifyRewrappedLogo from '../../assets/images/projects/rewrapped.png'
 import dataDataLogo from '../../assets/images/projects/datadata.jpeg'
 import musicMagalLogo from '../../assets/images/projects/musicmagal2.jpeg'
@@ -11,6 +12,30 @@ class ProjectsSection extends React.Component {
     return (
       <Section title="Projects">
         <div className="row">
+          <ProjectUnit
+            logo={lyricsLogo}
+            colour="#efefda"
+            title="Bewildering Brain"
+            link="https://medium.com/@alexing/bewildering-brain-332d5192e95b"
+            subtitle="Writing songs like Bob Dylan and Luis Alberto Spinetta using machine and deep learning."
+            github="https://github.com/alexing/lyrics_prediciton"
+            medium="https://medium.com/@alexing/bewildering-brain-332d5192e95b"
+            
+
+            additional_link1="https://medium.com/@alexing/bewildering-brain-332d5192e95b"
+            additional_link1_icon="fa fa-medium"
+            additional_link1_title="Bewildering Lyrics: Bob Dylan's version (in English)"
+
+            additional_link2="https://medium.com/datos-y-ciencia/oraciones-artificiales-88b8c66a6e3d"
+            additional_link2_icon="fa fa-medium"
+            additional_link2_title="Oraciones artificiales: Luis Alberto Spinetta's version (in Spanish)"
+
+            additional_link3="https://silencio.com.ar/noticias/lo-ultimo/crean-un-bot-capaz-de-escribir-en-el-estilo-de-luis-alberto-spinetta-40784/"
+            additional_link3_icon="fa fa-newspaper-o"
+            additional_link3_title="Article published in Silencio.com.ar, a music medium from Argentina."
+          />
+
+
           <ProjectUnit
             logo={spotifyRewrappedLogo}
             colour="#B89ACA"
