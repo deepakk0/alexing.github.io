@@ -24,7 +24,7 @@ class ProjectsSection extends React.Component {
 
             additional_link1="https://medium.com/@alexing/bewildering-brain-332d5192e95b"
             additional_link1_icon="fa fa-medium"
-            additional_link1_title="Bewildering Lyrics: Bob Dylan's version (in English)"
+            additional_link1_title="Bewildering Brain: Bob Dylan's version (in English)"
 
             additional_link2="https://medium.com/datos-y-ciencia/oraciones-artificiales-88b8c66a6e3d"
             additional_link2_icon="fa fa-medium"
