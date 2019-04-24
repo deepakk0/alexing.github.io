@@ -16,13 +16,13 @@ class ProjectsSection extends React.Component {
             logo={lyricsLogo}
             colour="#efefda"
             title="Bewildering Brain"
-            link="https://medium.com/@alexing/bewildering-brain-332d5192e95b"
+            link="https://towardsdatascience.com/bewildering-brain-332d5192e95b?source=friends_link&sk=201802393d3ef10cafcdeb4a2d6db955"
             subtitle="Writing songs like Bob Dylan and Luis Alberto Spinetta using machine and deep learning."
             github="https://github.com/alexing/lyrics_prediciton"
-            medium="https://medium.com/@alexing/bewildering-brain-332d5192e95b"
+            medium="https://towardsdatascience.com/bewildering-brain-332d5192e95b?source=friends_link&sk=201802393d3ef10cafcdeb4a2d6db955"
             
 
-            additional_link1="https://medium.com/@alexing/bewildering-brain-332d5192e95b"
+            additional_link1="https://towardsdatascience.com/bewildering-brain-332d5192e95b?source=friends_link&sk=201802393d3ef10cafcdeb4a2d6db955"
             additional_link1_icon="fa fa-medium"
             additional_link1_title="Bewildering Brain: Bob Dylan's version (in English)"
 
