@@ -62,6 +62,15 @@ class ProjectUnit extends Component {
                 </a>
         </div> : ''
       }
+      {this.props.additional_link4 ? 
+
+        <div>
+                <a className='additional_link' href={this.props.additional_link4} target="_blank">
+                  <i className={`${this.props.additional_link4_icon}`}></i>
+                  &nbsp;&nbsp;&nbsp;{this.props.additional_link4_title}
+                </a>
+        </div> : ''
+      }
       <div>&nbsp;&nbsp;&nbsp;</div> {/* for spacing*/}
       </div>
     )

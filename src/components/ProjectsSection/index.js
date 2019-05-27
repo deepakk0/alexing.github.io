@@ -30,9 +30,13 @@ class ProjectsSection extends React.Component {
             additional_link2_icon="fa fa-medium"
             additional_link2_title="Oraciones artificiales: Luis Alberto Spinetta's version (in Spanish)"
 
-            additional_link3="https://silencio.com.ar/noticias/lo-ultimo/crean-un-bot-capaz-de-escribir-en-el-estilo-de-luis-alberto-spinetta-40784/"
+            additional_link3="https://www.lanacion.com.ar/tecnologia/creo-bot-compone-letras-estilo-luis-alberto-nid2246043"
             additional_link3_icon="fa fa-newspaper-o"
-            additional_link3_title="Article published in Silencio.com.ar, a music medium from Argentina."
+            additional_link3_title="Article published in La Nacion, Argentina's most prestigious newspaper."
+
+            additional_link4="https://silencio.com.ar/noticias/lo-ultimo/crean-un-bot-capaz-de-escribir-en-el-estilo-de-luis-alberto-spinetta-40784/"
+            additional_link4_icon="fa fa-newspaper-o"
+            additional_link4_title="Article published in Silencio.com.ar, a music medium from Argentina."
           />
 
 
