@@ -2,9 +2,10 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import cactusLogo from '../../assets/images/experience/cactus.jpg'
+import outbrainLogo from '../../assets/images/experience/outbrain.png'
 import chorusLogo from '../../assets/images/experience/chorus.png'
 import namogooLogo from '../../assets/images/experience/namogoo.png'
+import cactusLogo from '../../assets/images/experience/cactus.jpg'
 import awLogo from '../../assets/images/experience/aw.png'
 import coreLogo from '../../assets/images/experience/core.jpg'
 
@@ -12,31 +13,34 @@ import coreLogo from '../../assets/images/experience/core.jpg'
 class ExperienceSection extends React.Component {
   render() {
     return (
-      <Section title="Experience">
+      <Section title="RECENT EXPERIENCE">
         <div className="row">
+          <ExperienceUnit
+            logo={outbrainLogo}
+            colour='#FFFFFF'
+            title='Outbrain'
+            link='https://www.outbrain.com'
+            timeperiod='2019 - present'
+            position='NLP Engineer'
+            subtitle="Natural Language Processing algorithms and collaborative filtering processes. Outbrain's Recommendations Group."
+          />
           <ExperienceUnit
             logo={namogooLogo}
             colour='#403949'
             title='Namogoo'
             link='http://www.namogoo.com/'
-            timeperiod='2018 - present'
-            subtitle='Data Infrastructure and Machine Learning Engineer.'
+            timeperiod='2018 - 2019'
+            position='Data Engineer'
+            subtitle='Senior engineer in Data Infrastructure & Algorithms team. Carried out Data Engineering and Machine Learning projects and tasks.'
           />
           <ExperienceUnit
             logo={chorusLogo}
-            colour='#FFFFFF'
+            colour='#58BCD2'
             title='Chorus.ai'
             link='http://www.chorus.ai/'
             timeperiod='2018'
-            subtitle='Data Science Internship project: analyzed utterances of sales calls using Natural Language Processing and Machine Learning techniques to get new insights which helped to attract new clients.'
-          />
-          <ExperienceUnit
-            logo={cactusLogo}
-            colour='#F8F8F6'
-            title='Cactus.ws'
-            link='http://www.cactus.ws/'
-            timeperiod='2016'
-            subtitle='Full-stack Software Engineer: worked with both back and front end web development and iOS apps.'
+            position='Data Scientist Intern'
+            subtitle='Analyzed utterances of sales calls using Natural Language Processing and Machine Learning techniques to get new insights which helped to attract new clients.'
           />
           {/*
           <ExperienceUnit

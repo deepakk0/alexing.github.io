@@ -16,8 +16,8 @@ class About extends Component {
           <br/> <br/>
           Researching and analyizing data in various projects on my spare time. 
           <br/> <br/>
-          Also, a music lover and a travelling fanatic.
-          <br/>
+          Music lover, travelling fanatic and also<a href='https://photos.alexingberg.com/' className="link"> an amateur photographer. </a>
+          <br/> <br/>
           Drop me a line!
         </div>
       </div>

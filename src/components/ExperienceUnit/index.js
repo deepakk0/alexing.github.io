@@ -18,6 +18,9 @@ class ExperienceUnit extends Component {
         <div className="title bold">
           {this.props.title}
         </div>
+        <div className="position bold">
+          {this.props.position}
+        </div>
         <div className="time-period">
           {this.props.timeperiod}
         </div>

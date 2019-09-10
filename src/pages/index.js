@@ -2,6 +2,7 @@ import React from 'react'
 import ExperienceSection from '../components/ExperienceSection'
 import ProjectsSection from '../components/ProjectsSection'
 import EducationSection from '../components/EducationSection'
+import PressSection from '../components/PressSection'
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
 
@@ -31,6 +32,8 @@ const IndexPage = () => (
         <ProjectsSection />
         <ExperienceSection />
         <EducationSection />
+        <PressSection />
+
       </div>
 
     </div>
